@@ -157,6 +157,12 @@ h1 {
   font-size: 1.2em;
 }
 
+.container .items:hover{
+
+  animation-play-state:paused;
+  cursor: pointer;
+}
+
 @-webkit-keyframes carouselAnim {
   from {
     transform: translate(0, 0);
