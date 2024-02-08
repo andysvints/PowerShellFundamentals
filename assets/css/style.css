@@ -78,8 +78,8 @@ h1 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  -webkit-animation: carouselAnim 10s infinite alternate linear;
-          animation: carouselAnim 10s infinite alternate linear;
+  -webkit-animation: carouselAnim 3s infinite alternate linear;
+          animation: carouselAnim 3s infinite alternate linear;
 }
 .container .items .item {
   display: flex;
