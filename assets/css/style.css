@@ -168,17 +168,10 @@ h1 {
     transform: translate(0, 0);
   }
   to {
-    transform: translate(calc(-100% + (10 * 300px)));
+    transform: translate(calc(-100% + (5 * 300px)));
   }
 }
-@keyframes carouselAnim {
-  from {
-    transform: translate(0, 0);
-  }
-  to {
-    transform: translate(calc(-100% + (10 * 300px)));
-  }
-}
+
 @media only screen and (max-width: 768px) {
   .container .items {
     -webkit-animation: carouselAnim 30s infinite alternate linear;
