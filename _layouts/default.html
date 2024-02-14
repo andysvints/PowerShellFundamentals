@@ -1,15 +1,19 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+      </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
-    </nav>
+    <div class="nav ph-line-nav">
+		<a href="#">Home</a>
+		<a href="https://www.youtube.com/@PSFundamentals_" target="_blank">Videos</a>
+		<a href="#">Analytics</a>
+		<a href="https://www.buymeacoffee.com/andysvints" target="_blank" >Support</a>
+		<div class="effect"></div>
+	</div>
     <h1>{{ page.title }}</h1>
     <section>
       {{ content }}
