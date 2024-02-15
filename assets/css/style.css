@@ -81,12 +81,29 @@ h1 {
   -webkit-animation: carouselAnim 3s infinite alternate linear;
           animation: carouselAnim 3s infinite alternate linear;
 }
-.items-static {
-  animation-play-state:paused;
-  cursor: pointer;
-  
+
+.container .items-st {
+  display: flex;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
+
 .container .items .item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  height: 450px;
+  background: #f9f9f9;
+  margin: 1em;
+  background: #665560;
+  border-radius: 1em;
+  box-shadow: 0px 0px 5px 0px rgba(38, 40, 42, 0.7);
+}
+.container .items-st .item {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -103,12 +120,27 @@ h1 {
   text-align: center;
   color: #012456;
 }
+.container .items-st .item p {
+  text-align: center;
+  color: #012456;
+}
 .container .items .item p.name {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.container .items-st .item p.name {
   font-size: 1.5em;
   font-weight: 700;
 }
 
 .container .items .item .date {
+  width: 100%;
+  font-weight: 700;
+  color: #012456;
+  margin: 0;
+  padding: 0.5em,0.5em,0.5em,0.5em;
+}
+.container .items-st .item .date {
   width: 100%;
   font-weight: 700;
   color: #012456;
@@ -121,11 +153,26 @@ h1 {
   padding: 0;
   text-align: center;
 }
+.container .items-st .item .date dt, .container .items .item .date dd {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 .container .items .item .date dd {
   font-size: 1.2em;
 }
-
+.container .items-st .item .date dd {
+  font-size: 1.2em;
+}
 .container .items .item .synopsis {
+  width: 100%;
+  font-weight: 700;
+  color: #012456;
+  margin: 0;
+  padding: 0.5em;
+  font-size: xx-large;
+}
+.container .items-st .item .synopsis {
   width: 100%;
   font-weight: 700;
   color: #012456;
@@ -139,7 +186,15 @@ h1 {
   padding: 0;
   text-align: center;
 }
+.container .items-st .item .synopsis dt, .container .items .item .synopsis dd {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 .container .items .item .synopsis dd {
+  font-size: 1.2em;
+}
+.container .items-st .item .synopsis dd {
   font-size: 1.2em;
 }
 
@@ -158,7 +213,15 @@ h1 {
   padding: 0;
   text-align: center;
 }
+.container .items-st .item .description dt, .container .items .item .description dd {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 .container .items .item .description dd {
+  font-size: 1.2em;
+}
+.container .items-st .item .description dd {
   font-size: 1.2em;
 }
 
