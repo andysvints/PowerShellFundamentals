@@ -81,12 +81,10 @@ h1 {
   -webkit-animation: carouselAnim 3s infinite alternate linear;
           animation: carouselAnim 3s infinite alternate linear;
 }
-.container .items-static {
-  display: flex;
-  align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.items-static {
+  animation-play-state:paused;
+  cursor: pointer;
+  
 }
 .container .items .item {
   display: flex;
