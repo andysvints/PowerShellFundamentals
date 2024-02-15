@@ -81,6 +81,13 @@ h1 {
   -webkit-animation: carouselAnim 3s infinite alternate linear;
           animation: carouselAnim 3s infinite alternate linear;
 }
+.container .items-static {
+  display: flex;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 .container .items .item {
   display: flex;
   align-items: center;
@@ -223,14 +230,15 @@ footer a {
 }
 
 .css-chart {
-  border-bottom: 1px solid;
-  border-left: 1px solid;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
   display: inline-block;
   height: var(--widget-size);
   margin: 5em 15em 1em 5em;
   padding: 0;
   position: relative;
   width: var(--widget-size);
+  color:#665560;
 }
 
 .line-chart {
@@ -252,7 +260,7 @@ footer a {
 }
 
 .line-segment {
-  background-color: blue;
+  background-color: whitesmoke;
   bottom: var(--y);
   height: 3px;
   left: var(--x);
