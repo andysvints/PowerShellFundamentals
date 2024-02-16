@@ -237,7 +237,6 @@ footer a {
   border-left: 2px solid;
   display: inline-block;
   height: var(--widget-size);
-  margin: 5em 15em 1em 5em;
   padding: 0;
   position: relative;
   width: var(--widget-size);
@@ -245,7 +244,7 @@ footer a {
 }
 
 .css-chart p {
-  margin-top: var(--y);
+  margin-top: calc(var(--y)*1.5);
   font-size: x-small;
 }
 .line-chart {
