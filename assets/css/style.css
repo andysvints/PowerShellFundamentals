@@ -276,3 +276,9 @@ footer a {
   transform-origin: left bottom;
   width: calc(var(--hypotenuse) * 1px);
 }
+
+.post{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
