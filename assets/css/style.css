@@ -244,8 +244,9 @@ footer a {
 }
 
 .css-chart p {
-  margin-top: calc(var(--y)*1.5);
+  margin-top: calc(var(--y)*1.1);
   font-size: x-small;
+  width: 50px;
 }
 .line-chart {
   list-style: none;
