@@ -22,7 +22,7 @@ body {
   width: 25%; 
   text-align: center; 
   text-decoration: none;
-  color: #393939; 
+  color: whitesmoke; 
   transition: .7s; 
 }
 .nav a:hover { 
